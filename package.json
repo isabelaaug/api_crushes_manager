@@ -1,0 +1,26 @@
+{
+  "name": "api_crushes_manager",
+  "version": "1.0.0",
+  "description": "Api para gerenciar os contatinhos",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development C:/Users/isabe/Desktop/Projetos/NODEJS_PROJECT/api_crushes_manager/node_modules/.bin/ts-node C:/Users/isabe/Desktop/Projetos/NODEJS_PROJECT/api_crushes_manager/server/server.ts"
+  },
+  "author": "Isabela Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.9"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "^4.17.6",
+    "@types/mongoose": "^5.7.11",
+    "@types/node": "^13.11.1",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
+  }
+}
